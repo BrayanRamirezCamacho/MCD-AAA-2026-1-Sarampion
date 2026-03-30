@@ -1,6 +1,6 @@
 # Diccionario de datos — Datos procesados
 
-Todos los archivos se generan en `content/data/processed/`
+Todos los archivos se generan en `data/processed/`
 ejecutando `src/data/make_dataset.py`.
 
 ---
