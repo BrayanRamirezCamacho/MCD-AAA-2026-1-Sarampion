@@ -1,0 +1,9 @@
+Country,ciudad_sede,cluster,riesgo_label,score_riesgo_norm,total_cases,mcv1_mean,mcv1_min,mcv1_tendencia,asistencia_promedio,partidos_historicos,partidos_en_mexico,brote_local_2025_26,clasificado_2026
+Mexico,CDMX,1,Riesgo bajo-local,4.31,223.0,87.16666666666667,73.0,-1.6857142857142855,71106.66666666667,57.0,3,104,1
+South Africa,CDMX,0,Riesgo alto,8.99,2475.0,83.5,80.0,0.19999999999999998,,9.0,2,104,1
+South Korea,Guadalajara,2,Riesgo bajo-importado,1.33,273.0,97.66666666666667,97.0,-0.22857142857142856,,34.0,3,1139,1
+Ukraine,Monterrey,0,Riesgo alto,10.0,111326.0,87.16666666666667,74.0,-1.4,,5.0,1,13,1
+Tunisia,Monterrey,2,Riesgo bajo-importado,1.69,4756.0,96.33333333333333,95.0,-0.34285714285714286,42791.666666666664,15.0,2,13,1
+Uzbekistan,CDMX,2,Riesgo bajo-importado,3.08,8480.0,98.33333333333333,96.0,0.5142857142857143,,,1,104,1
+Colombia,CDMX,2,Riesgo bajo-importado,3.15,447.0,91.16666666666667,86.0,-1.0,,22.0,1,104,1
+Japan,Monterrey,2,Riesgo bajo-importado,0.0,1143.0,96.33333333333333,94.0,-0.34285714285714286,42865.25,21.0,1,13,1

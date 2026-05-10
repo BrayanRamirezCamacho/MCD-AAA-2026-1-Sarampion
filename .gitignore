@@ -1,0 +1,11 @@
+# PDFs y ZIPs pesados
+data/raw/pdfs/
+data/raw/zips/
+*.zip
+*.pdf
+# Python
+__pycache__/
+*.pyc
+.env
+# Colab
+.ipynb_checkpoints/
