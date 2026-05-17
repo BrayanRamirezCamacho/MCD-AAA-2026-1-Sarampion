@@ -242,4 +242,4 @@ con `pdfplumber` + expresiones regulares sin necesidad de una LLM.
 
 **Modelo final retenido:** `Logistic Regression`  
 **Parámetros:** C=0.1, penalty=L1, solver=liblinear, class_weight=balanced, umbral=0.30  
-**Registro MLflow:** https://dagshub.com/bevins93/brotes-mundial-2026.mlflow
+**Registro MLflow:** [https://dagshub.com/bevins93/brotes-mundial-2026.mlflow](https://dagshub.com/bevins93/brotes-mundial-2026)
