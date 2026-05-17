@@ -2,7 +2,7 @@
 
 **Equipo:** bevins93 / BrayanRamirezCamacho  
 **Repositorio:** https://github.com/BrayanRamirezCamacho/MCD-AAA-2026-1-Sarampion  
-**MLflow:** https://dagshub.com/bevins93/brotes-mundial-2026.mlflow  
+**MLflow:** [https://dagshub.com/bevins93/brotes-mundial-2026.mlflow ](https://dagshub.com/bevins93/brotes-mundial-2026) 
 **Fecha:** Mayo 2026
 
 ---
