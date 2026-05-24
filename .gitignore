@@ -3,9 +3,18 @@ data/raw/pdfs/
 data/raw/zips/
 *.zip
 *.pdf
+
 # Python
 __pycache__/
 *.pyc
 .env
+
 # Colab
 .ipynb_checkpoints/
+
+# Entorno virtual
+.venv/
+
+# Datos procesados reproducibles
+data/processed/*.csv
+!data/processed/.gitkeep

@@ -126,7 +126,10 @@ def safe_to_numeric(series: pd.Series) -> pd.Series:
 def load_efes(raw_dir: Path) -> pd.DataFrame:
     dfs = []
     for year, filename in EFES_FILES.items():
-        path = raw_dir / filename
+        path = raw_dir / "efes" / filename
+
+        if not path.exists():
+            path = raw_dir / filename
         if not path.exists():
             raise FileNotFoundError(f"Falta el archivo EFES esperado: {path}")
         if path.suffix.lower() == ".xlsx":
