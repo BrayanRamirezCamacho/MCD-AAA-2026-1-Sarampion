@@ -19,6 +19,7 @@ seaborn
 jupyter
 ipykernel
 plotly
+tabulate
 
 # modeling
 imbalanced-learn

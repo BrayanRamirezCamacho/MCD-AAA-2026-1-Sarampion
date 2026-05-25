@@ -18,3 +18,13 @@ __pycache__/
 # Datos procesados reproducibles
 data/processed/*.csv
 !data/processed/.gitkeep
+
+# Instalación editable local
+*.egg-info/
+src.egg-info/
+
+# Artefactos generados por entrenamiento
+models/*.pkl
+data/processed/predicciones_modelo.csv
+reports/metricas_modelos.csv
+reports/reporte_modelo.md

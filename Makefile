@@ -9,7 +9,7 @@ PYTHON_INTERPRETER = python
 # COMMANDS
 #################################################################################
 
-.PHONY: help requirements data clean lint test_environment
+.PHONY: help requirements data train pipeline clean lint test_environment
 
 ## Show available commands
 help:
@@ -19,6 +19,8 @@ help:
 	@echo "  make data               - Build processed datasets"
 	@echo "  make clean              - Remove compiled Python files"
 	@echo "  make lint               - Run flake8"
+	@echo "  make train              - Train supervised models"
+	@echo "  make pipeline           - Run full data + training pipeline"
 
 ## Test python environment is setup correctly
 test_environment:
@@ -32,6 +34,14 @@ requirements: test_environment
 ## Make Dataset
 data: requirements
 	$(PYTHON_INTERPRETER) src/data/make_dataset.py data/raw data/processed
+
+## Train supervised models
+train: data
+	$(PYTHON_INTERPRETER) src/models/train_model.py data/processed models reports
+
+## Run full pipeline
+pipeline: train
+	@echo "Pipeline completed successfully."
 
 ## Delete all compiled Python files
 clean:
